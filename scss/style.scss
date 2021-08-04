@@ -1,0 +1,58 @@
+.themeOne {
+    background-color: #4158d0;
+    background-image: linear-gradient(43deg, #4158d0 0%, #c850c0 46%, #ffcc70 100%);
+    color: #41183e;
+    font-size: 15px;
+    font-weight: 500;
+}
+.themeTwo {
+    background-color: #85ffbd;
+    background-image: linear-gradient(45deg, #85ffbd 0%, #fffb7d 100%);
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+}
+.themeThere {
+    background-color: #faaca8;
+    background-image: linear-gradient(19deg, #faaca8 0%, #ddd6f3 100%);
+    color: #fff;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.ramdomGenerated {
+    width: 100%;
+    height: 100vh;
+    padding: 50px;
+    background: url("../images/background.png");
+    background-attachment: fixed;
+    background-size: cover;
+    .selectS {
+        width: 10%;
+        select {
+            outline: none;
+            border: none;
+            background: none;
+            font-size: 12px;
+        }
+    }
+    h6 {
+        text-align: center;
+        font-weight: bold;
+    }
+    .card {
+        background-color: rgba(255, 255, 255, 0.25);
+        backdrop-filter: blur(6px);
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        box-shadow: rgba(142, 142, 142, 0.19) 0px 6px 15px 0px;
+        border-radius: 5px;
+        .card-body {
+            line-height: 30px;
+            img {
+                border-radius: 5px;
+                width: 200px;
+                height: 300px;
+            }
+        }
+    }
+}
